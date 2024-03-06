@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "dialog",
+    "slug": "dialog",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "com.celimaria.dialog",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.celimaria.dialog",
+      "infoPlist": {
+        "CFBundleURLTypes":[
+          {
+            "CFBundleURLTypes": ["com.googleusercontent.apps.893880044848-3ist29ks40ljhn4fkp7m49p3efac9lkp"]
+          }
+        ]
+      }
+    },
+    "android": {
+      "package": "com.celimaria.dialog",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc9f016f-b3ae-49b5-95f8-abaeb424b498"
+      }
+    }
+  }
+}
